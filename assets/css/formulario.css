@@ -1,0 +1,16 @@
+
+
+form {
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    margin: 7rem;
+    border-radius: 50px;
+    background: #87FFFE;
+    padding: 30px 0px;
+
+}
+.agua{
+    margin-top: 0px;
+    position: fixed;
+    top: 0%;
+}

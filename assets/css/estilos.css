@@ -1,0 +1,13 @@
+@import url();
+@import url(nav.css);
+@import url(banner.css);
+@import url(servicios.css);
+@import url(productos.css);
+@import url(ubicanos.css);
+@import url(footer.css);
+
+@import url(formulario.css);
+*{
+    margin: 0;
+    padding: 0;
+}

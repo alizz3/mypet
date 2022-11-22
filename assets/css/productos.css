@@ -1,0 +1,32 @@
+#info{
+    background: rgb(104, 104, 104);
+    text-align: center;
+    padding: 30px;
+}
+
+#info h3,#info h4{
+    padding: 15px;
+    color: #ffffff;
+}
+
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-mascota{
+    margin: 20px;
+}
+
+.info-mascota img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #0a3c5e
+}
+
+.info-mascota h5{
+    color: #ffffff;
+    font-size: 20px;
+}

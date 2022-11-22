@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+h6 {
+    font-size: 22px;
+}
+
+
+.banner h1,
+.banner p {
+    margin: 0;
+    text-align: center;
+    color: black;
+}
+
+.banner {
+    padding-top: 6rem;
+    color: white;
+    /* background: url('assets/img/Group8.png') top left/cover no-repeat; */
+
+    background: url(../img/Group8.2.png) no-repeat right top fixed;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+
+}
+
+.banner-text {
+
+    display: flex;
+    width: 40%;
+    height: 50%;
+    margin-left: 20%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+.banner h1 {
+    color: #425465;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 6rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner p{
+        word-wrap: break-word;
+        font-size: 1.25rem;
+        line-height: 35px;
+
+
+}
+
+
+
+
+
+
+.BannerButton {
+    box-shadow: inset 0px 1px 0px 0px #5d9ad2;
+    background: linear-gradient(to bottom, #5d9ad2 5%, #5d9ad2 100%);
+    background-color: #5d9ad2;
+    border: 1px solid #5d9ad2;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 7px 20px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #5d9ad2;
+    margin: 10px 10px;
+    font-weight: 600;
+}
+
+.BannerButton:hover {
+    background: linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+    background-color: #1e62d0;
+}
+
+.BannerButton:active {
+    position: relative;
+    top: 1px;
+}
+
+
+@media screen and (max-width:730px) {
+    .banner-text {
+        width: 50%;
+        margin-left: 8%;
+    }
+    .banner h1 {
+        color: #425465;
+        font-family: Roboto, sans-serif;
+        font-weight: bold;
+        font-size: 4rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+}
